@@ -13,7 +13,6 @@ export function FarcasterReadyProvider({ children }: Props) {
       try {
         await sdk.actions.ready();
       } catch (error) {
-        // Likely not running inside Farcaster miniapp; safe to ignore
         console.warn(
           "Farcaster ready() failed or not in miniapp context",
           error

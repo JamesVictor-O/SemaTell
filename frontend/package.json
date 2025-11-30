@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@farcaster/miniapp-sdk": "^0.0.18",
+    "@farcaster/miniapp-sdk": "^0.2.1",
     "@google/genai": "^1.30.0",
     "@radix-ui/react-menubar": "^1.1.16",
     "@radix-ui/react-navigation-menu": "^1.2.14",

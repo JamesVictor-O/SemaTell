@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, LineChart, Users, Plus } from "lucide-react";
+import { Home, LineChart, Users, Plus, User } from "lucide-react";
 import CreateMarketModal from "../Modals/CreateMarketModal";
 
 const BottomNav: React.FC = () => {
@@ -23,6 +23,11 @@ const BottomNav: React.FC = () => {
       href: "/leagues",
       icon: <Users className="h-5 w-5" />,
       label: "Leagues",
+    },
+    {
+      href: "/Profile",
+      icon: <User className="h-5 w-5" />,
+      label: "Profile",
     },
   ];
 
