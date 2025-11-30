@@ -6,7 +6,7 @@
     "homeUrl": "https://sema-tell.vercel.app",
     "imageUrl": "https://sema-tell.vercel.app/Logo.png",
     "splashImageUrl": "https://sema-tell.vercel.app/Logo.png",
-    "splashBackgroundColor": "#0EA5E9",
+    "splashBackgroundColor": "#00C49A",
     "webhookUrl": "https://sema-tell.vercel.app/api/webhook",
     "subtitle": "Prediction Markets",
     "description": "Predict outcomes in African entertainment, compete in global leagues, and earn status by mastering the market for truth.",
