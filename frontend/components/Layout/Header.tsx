@@ -28,8 +28,8 @@ export const Header: React.FC<HeaderProps> = ({
           onClick={onNavigateHome}
         >
           <Image
-            src="/logo.png"
-            alt="Prophet logo"
+            src="/Logo.png"
+            alt="sema tell logo"
             width={40}
             height={40}
             className="h-10 w-auto rounded-md bg-white/5 p-1 shadow-sm"
